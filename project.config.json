@@ -1,29 +1,21 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
-      "type": "doc",
-      "name": "library"
-    },
-    {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
-    },
-    {
       "fileId": "1G-aJA1H5C-B05Hlpx2RiojYcsNNXQ5ntvUEArRZ5O6w",
       "type": "sheet",
       "name": "pirates"
-    }
-  ],
-  
-  "to_bake": [
+    },
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "fileId": "1Md9phj6mDwd7dAcIENjqtaPaY7rHNk0Z0kh6T5Sy14c",
+      "type": "doc",
+      "name": "blog"
+    },
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
       "slug": "slug",
-      "path": "books"
+      "path": "blog"
     }
   ]
 }
